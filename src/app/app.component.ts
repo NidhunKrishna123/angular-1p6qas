@@ -9,6 +9,7 @@ export class AppComponent  {
   todoArray =[]
 
   todoAdd(value){this.todoArray.push(value);
+  todoDelete(value){this.todoArray.pop};
   console.log(this.todoArray)
   }
 }

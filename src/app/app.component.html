@@ -13,7 +13,7 @@
     </div>
     <div class="data">
     <ul class="list-instyled">
-      <li *ngFor="let x of todoArray">{{x}} <i class="material-icons"> delete_outline</i>
+      <li *ngFor="let x of todoArray">{{x}} <i class="material-icons" (click)="todoDelete(x)"> delete_outline</i>
       </li>
     </ul>
   </div>
